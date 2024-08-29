@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-FRAME test</title>
+
+    <!-- Implementazione A-FRAME per l'ambiente VR -->
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+
+
+
+<body>
+
+
+    <!-- Asset Managment System -->
+        <a-assets>
+            <img id="ReolTexture" src="https://cdns-images.dzcdn.net/images/artist/693d5d0dd1031f2a55fdf4e107e51ba5/500x500.jpg" alt="reolphoto1">
+        </a-assets>
+
+
+
+    <!-- Scena 3D VR -->
+    <a-scene>
+        <a-box src="#ReolTexture" position="-1.2 2.7 -3" rotation="0 45 0"></a-box>
+
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E">
+            <a-ring position="1 2.40 -5" radius="2.25" color="black"></a-ring>
+            <a-ring position="-1 2.40 -5" radius="2.25" color="black"></a-ring>
+        </a-sphere>
+
+        <a-cylinder position="-1.2 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky color="#ECECEC"></a-sky>
+
+        <a-torus-knot position="-3 0 0" color="green"></a-torus-knot>
+        <a-dodecahedron position="3 0 0" color="blue"></a-dodecahedron>
+        <a-text position="-2 4.25 -1" radius="1.25" color="black" value="Mhanz"></a-text>
+
+        <a-text position="-1 1.78 -3" radius="1.25" color="black" value="Premi WASD per muoverti"></a-text>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-FRAME test</title>
+
+  
+    <!-- Implementazione A-FRAME per l'ambiente VR -->
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+
+
+
+<body>
+
+
+    <!-- Asset Managment System -->
+        <a-assets>
+            <img id="ReolTexture" src="./img/bFK9heQy_400x400.jpg" alt="reolphoto1">
+        </a-assets>
+
+
+
+    <!-- Scena 3D VR -->
+    <a-scene>
+
+        <!-- prendere un asset -->
+        <a-box src="#ReolTexture" position="-1.2 2.7 -3" rotation="0 45 0"></a-box>
+
+        <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E">
+            <a-ring position="1 2.40 -5" radius="2.25" color="black"></a-ring>
+            <a-ring position="-1 2.40 -5" radius="2.25" color="black"></a-ring>
+        </a-sphere>
+
+        <a-cylinder position="-1.2 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+        <a-sky src="./img/Skybox.jpg"></a-sky>
+
+        <a-torus-knot position="-3 0 0" color="green"></a-torus-knot>
+        <a-dodecahedron position="3 0 0" color="blue"></a-dodecahedron>
+        <a-text position="-2 4.25 -1" radius="1.25" color="Red" value="TestMhanz"></a-text>
+
+        <a-text position="-1 1.78 -3" radius="1.25" color="black" value="Premi WASD per muoverti"></a-text>
+
+        <!-- prova texture -->
+        <a-plane src="./img/DrearyIllinformedCreature-size_restricted.gif" position="4.5 3.9 -8" rotation="0 0 0" width="4" height="4"></a-plane>
+      
+    </a-scene>
+
+</body>
+</html>
+    </a-scene>
+
+    
+
+    
+</body>
+</html>
